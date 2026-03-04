@@ -25,12 +25,12 @@ Approach:
 
     Assumptions: I drew a sketch of the nut cracker, making the 
     "hole" for the nut 2cm (20mm) in radius, and making various
-     other reasonable assumptions: 2.5cm from the center of the
-      pin to the end of the hole that would contain the 
-      Macadamia nut, and 2cm from the edge of the nutcracker to 
-      the center of the nut (vertically). I took my human grip 
-      strength as 147N, and my force needed to crack the nut as 
-      2180 N.
+    other reasonable assumptions: 2.5cm from the center of the
+    pin to the end of the hole that would contain the 
+    Macadamia nut, and 2cm from the edge of the nutcracker to 
+    the center of the nut (vertically). I took my human grip 
+    strength as 147N, and my force needed to crack the nut as 
+    2180 N.
 
     I then drew a free body diagram of one of the handles, in 
     order to figure out how to find various dimensions. I then 
@@ -46,9 +46,8 @@ Approach:
     I took d1 to be 1.75 cm, calculated from my previous 
     assumsions of hole size and distance from hole to pin. I 
     took F_n to be 2180, from the paper attatched above, and I
-     took F_a to be 147N, also listed in my assumsions above. 
-     Plugging these values in and solving for d4, I got 
-
+    took F_a to be 147N, also listed in my assumsions above. 
+    Plugging these values in and solving for d4, I got 
     d4 = 25.95cm. I then added a few centemeters onto this 
     length in order to account for extra length of handle 
     beyond where the hand lies on the handle, and got 28.95cm 
