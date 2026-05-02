@@ -101,14 +101,14 @@ Before Nut:
 <img width="344" height="98" alt="image" src="https://github.com/user-attachments/assets/28b7a3c7-7767-449d-b87d-149e0326904c" />
 
 After Nut:
-<img width="2360" height="293" alt="image" src="https://github.com/user-attachments/assets/4cdaaab1-dc09-48b4-8703-a3a7dcacbe69" />
+<img width="1180" height="146" alt="image" src="https://github.com/user-attachments/assets/4cdaaab1-dc09-48b4-8703-a3a7dcacbe69" />
 
 
 Through this I found the maximum deflection occurs at the very end of the 
 handle (0.15m), due to it being a free end, unfixed by any pins or rollers, 
 or other supports, and thus having the most room to bend. 
 Max Deflection:
-<img width="1422" height="1073" alt="image" src="https://github.com/user-attachments/assets/66ffa386-0aa6-43b2-9136-633af006c9a9" />
+<img width="721" height="536" alt="image" src="https://github.com/user-attachments/assets/66ffa386-0aa6-43b2-9136-633af006c9a9" />
 
 With the goal of bending of less than 2% of the length (0.003m), using cold rolled 
 stainless steel (often used in kitchen appliances) I found that a 9.2x9.2mm 
@@ -118,7 +118,7 @@ after the nut, setting the equation equal to 0.003, and solving for I, and then
 plugging this value into the equation I = (1/12)s^4, and solving for s.
 
 Moment of Inertia Calculations:
-<img width="967" height="1319" alt="image" src="https://github.com/user-attachments/assets/443ac880-b993-48b3-96de-745e34181b8f" />
+<img width="483" height="659" alt="image" src="https://github.com/user-attachments/assets/443ac880-b993-48b3-96de-745e34181b8f" />
 
 
 Full Bending Work: [hw 12port.pdf](https://github.com/user-attachments/files/27297062/hw.12port.pdf)
