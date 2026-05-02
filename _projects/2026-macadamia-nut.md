@@ -71,8 +71,55 @@ Approach:
 
 
 Diagram: 
-![alt text](IMG_0284.jpg)
+<img width="970" height="717" alt="IMG_0284" src="https://github.com/user-attachments/assets/5d27c9a1-cfee-46b7-86dc-578fe2d3e86d" />
 
 Usability: The nut cracker is around a foot long, and the space
 between the handles is over two feet. Thus this design is not 
 only unweildly, but also impossible to grip with one hand.
+
+Due to the lack of usability, another iteration was designed. The handheld 
+design was abandoned, and a linear actuator was decided upon. Handle lengths 
+were made to be 15 cm, with a space of 24 cm between them at the end. The 
+required force to break the macadamia nut from a distance of  of 11 cm 
+(to allow for extra space at the end of the handles) was calculated to be 346.81N. 
+The 1P65 mini was selected from the list, with a max reace of 10 inches (25cm) 
+and a max force of 752 N.
+New Design:
+<img width="1557" height="1136" alt="image" src="https://github.com/user-attachments/assets/5e7ebf13-7d20-49f7-af83-360c057af70a" />
+
+
+To assess the integrity of this design in respect to bending, we found the equations
+for deflection by approximating one of the handles with a simplified free body 
+diagram. The simplifications that were made were: assuming the handles to be completely
+straight, and assuming the forces exerted by the nut and actuator were point loads. 
+I also assumed that the nut would remain completely rigid until the moment of cracking. 
+
+
+I came up with two equations, one describing the behavior of the handle before
+encountering the nut, and one for after. 
+Before Nut:
+<img width="344" height="98" alt="image" src="https://github.com/user-attachments/assets/28b7a3c7-7767-449d-b87d-149e0326904c" />
+
+After Nut:
+<img width="2360" height="293" alt="image" src="https://github.com/user-attachments/assets/4cdaaab1-dc09-48b4-8703-a3a7dcacbe69" />
+
+
+Through this I found the maximum deflection occurs at the very end of the 
+handle (0.15m), due to it being a free end, unfixed by any pins or rollers, 
+or other supports, and thus having the most room to bend. 
+Max Deflection:
+<img width="1422" height="1073" alt="image" src="https://github.com/user-attachments/assets/66ffa386-0aa6-43b2-9136-633af006c9a9" />
+
+With the goal of bending of less than 2% of the length (0.003m), using cold rolled 
+stainless steel (often used in kitchen appliances) I found that a 9.2x9.2mm 
+square cross section would be the minimum for a square cross section. This was
+found through plugging in known values into the maximum deflection equation for the handle
+after the nut, setting the equation equal to 0.003, and solving for I, and then
+plugging this value into the equation I = (1/12)s^4, and solving for s.
+
+Moment of Inertia Calculations:
+<img width="967" height="1319" alt="image" src="https://github.com/user-attachments/assets/443ac880-b993-48b3-96de-745e34181b8f" />
+
+
+Full Bending Work: [hw 12port.pdf](https://github.com/user-attachments/files/27297062/hw.12port.pdf)
+
